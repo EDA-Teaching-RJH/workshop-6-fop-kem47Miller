@@ -14,7 +14,7 @@ except ValueError:
    
     while True: 
         try:
-            user_input = int(input("Enter X-coordinate: "))
+            user_input = input("Enter X-coordinate: ")
             coordinate = int(user_input)
             print(f"Coordinate {coordinate} accepted.")
             break
